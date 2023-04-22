@@ -2,7 +2,10 @@
 
 @font-face {
   font-family: "Galano Grotesque";
-  src: url(./fonts/GalanoGrotesqueMedium.otf); 
+  src: url(./fonts/GalanoGrotesqueLight.otf); 
+  src: url(./fonts/GalanoGrotesqueRegular.otf);
+  /* src: url(./fonts/GalanoGrotesqueMedium.otf); */
+  /* src: url(./fonts/GalanoGrotesqueBold.otf) */
 }
 body {
   margin: 0;

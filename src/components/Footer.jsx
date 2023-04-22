@@ -1,12 +1,12 @@
-import React from 'react'
-import "../styles/footer.css"
+// import React from 'react'
+// import "../styles/footer.css"
 
-function Footer() {
-  return (
-    <footer className='footer-cont'>
+// function Footer() {
+//   return (
+//     <footer className='footer-cont'>
 
-    </footer>
-  )
-}
+//     </footer>
+//   )
+// }
 
-export default Footer
+// export default Footer
