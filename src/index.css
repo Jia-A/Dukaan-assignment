@@ -1,0 +1,18 @@
+@import url('https://fonts.cdnfonts.com/css/galano-grotesque');
+
+@font-face {
+  font-family: "Galano Grotesque";
+  src: url(./fonts/GalanoGrotesqueMedium.otf); 
+}
+body {
+  margin: 0;
+  font-family: "Galano Grotesque", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #FAFAFA;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
