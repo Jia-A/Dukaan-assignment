@@ -1,0 +1,14 @@
+.products-cont{
+    position: absolute;
+    display: inline;
+    height: 762px;
+    /* margin: 80px 0px;
+    padding: 0px 160px; */
+    top: 1976px;
+    width: 1350px;
+    background-color: aquamarine;
+}
+.explore-img{
+    width: 352px;
+    height: 200px;
+}
