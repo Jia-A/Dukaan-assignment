@@ -1,11 +1,10 @@
-@import url('https://fonts.cdnfonts.com/css/galano-grotesque');
+@import url("https://fonts.cdnfonts.com/css/galano-grotesque");
 
 @font-face {
   font-family: "Galano Grotesque";
-  src: url(./fonts/GalanoGrotesqueLight.otf); 
+  src: url(./fonts/GalanoGrotesqueLight.otf);
   src: url(./fonts/GalanoGrotesqueRegular.otf);
-  /* src: url(./fonts/GalanoGrotesqueMedium.otf); */
-  /* src: url(./fonts/GalanoGrotesqueBold.otf) */
+
 }
 body {
   min-height: max-content;
@@ -13,10 +12,10 @@ body {
   font-family: "Galano Grotesque", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #FAFAFA;
+  background: #fafafa;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

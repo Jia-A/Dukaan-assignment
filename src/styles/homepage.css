@@ -1,126 +1,121 @@
-.main-cont{
-    position: absolute;
-    width: 80%;
-    top: 134px;
-    margin: 0px 10% ;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06);
-    border-radius: 8px;
+.main-cont {
+  position: absolute;
+  width: 80%;
+  top: 134px;
+  margin: 0px 10%;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06);
+  border-radius: 8px;
 }
-.main-div{
-    margin:4rem 15%;
-    
+.main-div {
+  margin: 4rem 15%;
 }
-@media (max-width:768px){
-    .main-div{
-        margin:1rem;
-        
-    }   
+@media (max-width: 768px) {
+  .main-div {
+    margin: 1rem;
+  }
 }
-.slogan-head{
-    font-size: 2rem;
-    color: #1A181E;
+.slogan-head {
+  font-size: 2rem;
+  color: #1a181e;
+}
+.slogan-desc {
+  height: 56px;
+  padding-right: 100px;
+  margin-top: 1rem;
+  font-size: 18px;
+}
+.slogan-word {
+  display: block;
+}
+.slogan-inp {
+  width: 90%;
+  border-radius: inherit;
+  font-family: inherit;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+.cross-btn {
+  /* position: absolute; */
+  /* left : 512px; */
+  /* top: 10px; */
+  background: inherit;
+  border-style: none;
+}
+.input-div {
+  margin-top: 8px;
+  display: flex;
+  padding: 0.1rem;
+  width: 352px;
+  border: 1px solid rgb(170 170 170);
 
-} 
-.slogan-desc{
-    height: 56px;
-    padding-right: 100px ;
-    margin-top: 1rem;
-    font-size: 18px;
+  border-radius: 4px;
 }
-.slogan-word{
-    display: block;
+.cross-icon {
+  width: 11px;
+  height: 11px;
 }
-.slogan-inp{
-    width: 90%;
-    border-radius: inherit;
-    font-family: inherit;
-    padding:8px;
-    border:none;
-    outline:none;
-    
+.generate-btn {
+  padding: 8px 24px;
+  width: 204px;
+  height: 50px;
+  background: #146eb4;
+  border-radius: 4px;
+  display: block;
+  margin-top: 48px;
+  border-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
 }
-.cross-btn{
-    /* position: absolute; */
-    /* left : 512px; */
-    /* top: 10px; */
-    background: inherit;
-    border-style: none;
+.bottom {
+  margin-top: 48px;
 }
-.input-div{
-    margin-top: 8px;
-    display: flex;
-    padding:0.1rem;
-         width: 352px;
-         border:     1px solid rgb(170 170 170) ;
-     
-    border-radius: 4px;
+.result-head {
+  font-size: 20px;
 }
-.cross-icon{
-    width: 11px;
-    height: 11px;
+.download-btn {
+  font-size: 14px;
+  padding: 8px 24px;
+  align-self: center;
+  color: #146eb4;
+  border: 1px solid #146eb4;
+  border-radius: 4px;
+  background-color: inherit;
 }
-.generate-btn{
-    padding: 8px 24px;
-    width: 204px;
-    height: 50px;
-    background: #146EB4;
-    border-radius: 4px;
-    display: block;
-    margin-top: 48px;
-    border-style: none;
-    font-size: 16px;
-    font-weight: bold;
-    color: #FFFFFF;
+.all-slogans {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 32px;
 }
-.bottom{
-    margin-top: 48px;
+.slogan-cont {
+  width: 40%;
+  background: #f2f2f2;
+  border-radius: 4px;
+  padding: 8px 16px;
+  align-self: center;
 }
-.result-head{
-    font-size: 20px;
+.section-parting {
+  height: 1px;
+  background: #d9d9d9;
+  margin-top: 60px;
 }
-.download-btn{
-    font-size: 14px;
-    padding : 8px 24px;
-    align-self:center;
-    color: #146EB4;
-    border: 1px solid #146EB4;
-    border-radius: 4px;
-    background-color: inherit;
+.pagination {
+  margin-top: 24px;
+  align-self: center;
+  justify-content: end;
 }
-.all-slogans{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 20px;
-    column-gap: 32px;
-   
+.page-list {
+  list-style-type: none;
+  gap: 5px;
+  padding: 0px;
+  margin: 0px;
 }
-.slogan-cont{
-    width: 40%;
-    background: #F2F2F2;
-    border-radius: 4px;
-    padding: 8px 16px;
-    align-self: center;  
-}
-.section-parting{
-    height: 1px;
-    background: #D9D9D9;
-    margin-top: 60px;
-}
-.pagination{
-    margin-top: 24px;
-    align-self: center;
-    justify-content: end;
-}
-.page-list{
-    list-style-type: none;
-    gap: 5px;
-    padding: 0px;
-    margin: 0px;
-}
-.page-num{
-    width: 443px;
-    height: 24px;
-    align-self: self-end;
+.page-num {
+  width: 443px;
+  height: 24px;
+  align-self: self-end;
 }
