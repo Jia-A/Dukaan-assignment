@@ -1,5 +1,9 @@
 .nav-main{
     margin-top: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    
 }
 .brand-name{ 
     align-items: center;

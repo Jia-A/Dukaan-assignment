@@ -27,7 +27,7 @@ function Products() {
     ]
   return (
     <div className='products-cont flex'>
-        <h2 className="cont-head">Try our other products</h2>
+        <h2 className="cont-head">Try our other free products</h2>
         <div className="flex-cont">
             {prodData.map((item)=>(
                 <article className="product-card flex">

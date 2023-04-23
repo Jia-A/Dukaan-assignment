@@ -48,7 +48,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 70px;
-    column-gap: 102px ;
+    column-gap: 15% ;
     row-gap: 16px;
     font-weight: 400
 }
@@ -63,7 +63,9 @@
 }
 .footer-flex{
     flex-direction: column;
-    padding: 65px 160px 24px 160px;
+    padding-top: 65px ;
+    padding-left:10%;
+    padding-right:10%;
     color: #FFFF;
 }
 .sec-part{

@@ -3,9 +3,7 @@ import "../styles/navbar.css"
 import "../custom.css"
 
 function Navbar() {
-
   return (
-
         <header className="nav-head">
             <nav className='flex around nav-main'>
             <div className='brand-name flex'>

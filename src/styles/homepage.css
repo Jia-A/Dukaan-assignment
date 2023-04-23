@@ -1,7 +1,6 @@
 .main-cont{
     position: absolute;
     width: 80%;
-    /* height: 2030px; */
     top: 134px;
     margin: 0px 10% ;
     background: #FFFFFF;
@@ -9,8 +8,14 @@
     border-radius: 8px;
 }
 .main-div{
-    margin:4rem 192px;
-    /* margin-top : 4rem; */
+    margin:4rem 15%;
+    
+}
+@media (max-width:768px){
+    .main-div{
+        margin:1rem;
+        
+    }   
 }
 .slogan-head{
     font-size: 2rem;
@@ -27,18 +32,29 @@
     display: block;
 }
 .slogan-inp{
-    width: 352px;
-    /* height: 48px; */
-    margin-top: 8px;
+    width: 90%;
+    border-radius: inherit;
     font-family: inherit;
-    padding:16px;
-    position: relative;
+    padding:8px;
+    border:none;
+    outline:none;
+    
 }
 .cross-btn{
-    position: absolute;
-    right: 10px;
+    /* position: absolute; */
+    /* left : 512px; */
+    /* top: 10px; */
     background: inherit;
     border-style: none;
+}
+.input-div{
+    margin-top: 8px;
+    display: flex;
+    padding:0.1rem;
+         width: 352px;
+         border:     1px solid rgb(170 170 170) ;
+     
+    border-radius: 4px;
 }
 .cross-icon{
     width: 11px;
@@ -69,7 +85,7 @@
     align-self:center;
     color: #146EB4;
     border: 1px solid #146EB4;
-    border-radius: 8px;
+    border-radius: 4px;
     background-color: inherit;
 }
 .all-slogans{
