@@ -1,7 +1,7 @@
 .products-cont{
     position: absolute;
     display: flex;
-    top: 2276px;
+    top: 2076px;
     width: 100%;
     flex-direction: column;
 }
