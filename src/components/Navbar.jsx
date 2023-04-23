@@ -9,12 +9,11 @@ function Navbar() {
         <header className="nav-head">
             <nav className='flex around nav-main'>
             <div className='brand-name flex'>
-                <span></span>
-                <span>dukaan</span>
+                <span><img src="./assets/white.svg" alt="" className="brand-icon"/></span>
             </div>
             <div className='nav-btn flex'>
                 <button className="sign-in btn">Sign-in</button>
-                <button className="app-btn btn">Dukaan for pc</button>
+                <button className="app-btn btn">Dukaan for PC</button>
             </div>
             </nav>
         </header>

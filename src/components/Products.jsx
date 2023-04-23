@@ -28,7 +28,7 @@ function Products() {
   return (
     <div className='products-cont flex'>
         <h2 className="cont-head">Try our other products</h2>
-        <div className="flex-cont flex">
+        <div className="flex-cont">
             {prodData.map((item)=>(
                 <article className="product-card flex">
                 <img src={item.imgSrc} alt={item.head} className='product-img' />
@@ -40,7 +40,7 @@ function Products() {
         <footer className="footer-cont">
             <div className="footer-flex flex">
                     <div className="foot-main flex">
-                            <div className="foot-brand">dukaan</div>
+                            <span><img src="./assets/white.svg" alt="" className="brand-icon"/></span>
                             <div className="foot-links">
                                 <span className="links">Contact</span>
                                 <span className="links">Tutorials</span>
@@ -49,7 +49,10 @@ function Products() {
                                 <span className="links">FAQ's</span>
                                 <span className="links">Blogs</span>
                                 <span className="links">Banned Items</span>
-                                <span className="links">Jobs</span>
+                                <span className="links flex job">
+                                    <span>Jobs</span>
+                                    <img src="./assets/Group 230.svg" alt="" className="job-icon"></img>
+                                </span>
                             </div>
                         <div className="sm-links-cont flex">
                             <span className="social-links">Facebook</span>

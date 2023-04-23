@@ -7,3 +7,6 @@
 .between{
     justify-content: space-between;
 }
+button{
+    font-family: inherit;
+}

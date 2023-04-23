@@ -8,6 +8,7 @@
   /* src: url(./fonts/GalanoGrotesqueBold.otf) */
 }
 body {
+  min-height: max-content;
   margin: 0;
   font-family: "Galano Grotesque", sans-serif;
   -webkit-font-smoothing: antialiased;
